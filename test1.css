@@ -96,6 +96,11 @@ img {
   font-size: 14px;
 }
 
+.right {
+    display: flex;
+    justify-content: center;
+  }
+
 @media screen and (max-width: 991px) {
   .menu {
     border-top: none;
@@ -131,8 +136,5 @@ img {
   .left .text {
     font-size: 1.5em;
   }
-  .right {
-    display: flex;
-    justify-content: center;
-  }
+  
 }
